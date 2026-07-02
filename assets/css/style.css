@@ -50,3 +50,22 @@ body {
   font-size: 40px;
   margin-left: 10px;
 }
+
+/*home page header*/
+.header {
+  font-size: 57px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 250px;
+  font-family: "Google Sans", sans-serif;
+}
+
+.subheader {
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Google Sans", sans-serif;
+}
