@@ -119,6 +119,10 @@ header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
   margin: 30px;
   margin-bottom: 0;
+  justify-content: center;
+  align-content: center;
+  background-image:url("/assets/12.png")  ;
+  background-size: cover;
 }
 .category-card img{
     width:100%;
@@ -127,10 +131,12 @@ header {
 }
 .category-card h2{
     text-align: center;
-    font-size: 14px;
+    font-size: 26px;
     margin: 10px;
     align-items: center;
     align-content: center;
+    
+   
 }
 .container-3{
   justify-items: center;
@@ -144,11 +150,17 @@ header {
 .container-4{
   justify-content: center;
   align-items: center;
-  height: 50vh;  
   display: flex;
   font-family:  "Google Sans", sans-serif;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  
 }
-.ctcontainer{
+.ctcontainer h1{
  font-family:  "Google Sans", sans-serif;
-  font-size: large;
+  font-size: 32px;
+  text-align: center;
+  margin: 2%;
 }
+
+
