@@ -1,6 +1,7 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
 .google-sans {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
@@ -8,7 +9,8 @@
   font-style: normal;
   font-variation-settings: "MONO" 1;
 }
-.lexend-zetta{
+
+.lexend-zetta {
   font-family: "Lexend Zetta", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -19,18 +21,20 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: var(--background);
   color: var(--text);
 }
 
 header {
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/star-wars-the-3840x2160-26293.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/star-wars-the-3840x2160-26293.jpg");
   background-size: cover;
   width: 100%;
   height: 90vh;
   text-align: center;
 }
+
 /*ui colors*/
 :root {
   --text: #f2eceb;
@@ -47,6 +51,7 @@ header {
   background-color: var(--background);
   overflow: hidden;
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
@@ -57,6 +62,7 @@ header {
   font-family: "Google Sans", sans-serif;
   font-weight: bold;
 }
+
 .navbar li {
   float: right;
 }
@@ -92,11 +98,13 @@ header {
   text-align: center;
 
 }
-.container-2 h3{
-  margin-top:50px ;
+
+.container-2 h3 {
+  margin-top: 50px;
   font-family: "Lexend Zetta", sans-serif;
 
 }
+
 .movie-card {
   width: 14%;
   height: auto;
@@ -108,19 +116,22 @@ header {
   cursor: pointer;
 
 }
-.movie-card img{
-    width:100%;
-    object-fit:cover;
-    border-radius: 10px 10px 0px 0px;
+
+.movie-card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
 }
-.movie-card h2{
-    text-align: center;
-    font-size: 14px;
-    margin: 10px;
+
+.movie-card h2 {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px;
 }
-.movie-container{
-    padding: 30px;
-    display: flex;
+
+.movie-container {
+  padding: 30px;
+  display: flex;
 }
 
 .category-card {
@@ -134,64 +145,71 @@ header {
   justify-content: flex-start;
   align-content: end;
   align-items: flex-end;
-
+  cursor: pointer;
   background-size: cover;
 }
 
-.Horror{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/l_1922777_4e991d7a.jpg")  ;
+.Horror {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/l_1922777_4e991d7a.jpg");
 }
-.Action{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/images.jpg")  ;
+
+.Action {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/images.jpg");
 }
-.Romance{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/through-my-window-netflix-poster-1-1.jpeg")  ;
+
+.Romance {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/through-my-window-netflix-poster-1-1.jpeg");
 }
-.Comedy{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/img1\).jpg")  ;
+
+.Comedy {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/img1\).jpg");
 }
-.Family{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/images\ \(1\).jpg")  ;
+
+.Family {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/images\ \(1\).jpg");
 }
-.category-card img{
-    width:100%;
-    object-fit:cover;
-    border-radius: 10px 10px 0px 0px;
+
+.category-card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
 }
-.category-card h2{
-    
-    font-size: 48px;
-    margin: 20px;
-    
-   
+
+.category-card h2 {
+
+  font-size: 48px;
+  margin: 20px;
+
+
 }
-.container-3{
+
+.container-3 {
   justify-items: center;
   justify-content: center;
   align-items: center;
   display: flex;
-  font-family:  "Google Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
 
 }
 
-.container-4{
+.container-4 {
   justify-content: center;
   align-items: center;
   display: flex;
-  font-family:  "Google Sans", sans-serif;
+  font-family: "Google Sans", sans-serif;
   margin-top: 1%;
   margin-bottom: 2%;
-  
+
 }
-.ctcontainer h1{
- font-family:  "Google Sans", sans-serif;
+
+.ctcontainer h1 {
+  font-family: "Google Sans", sans-serif;
   font-size: 32px;
   text-align: center;
   margin: 2%;
 }
 
-.ctcontainer a{
+.ctcontainer a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.692);
 }
-
