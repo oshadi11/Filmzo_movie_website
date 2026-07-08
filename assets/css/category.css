@@ -127,7 +127,7 @@ input:focus {
   opacity: 0.9;
   font-size: 60px;
   font-family: "Google Sans Flex", sans-serif;
-  margin-left: 20px;
+  margin-left: 35px;
   margin-bottom: 10px;
  
 }
@@ -135,7 +135,13 @@ input:focus {
 .category-para {
   font-size: 20px;
   font-family: "Google Sans Flex", sans-serif;
-  margin-left: 20px;
-  color: #f9f9f9;
-  margin-bottom: 10px;
+  margin-left: 30px;
+  color: #f9f9f9c8;
+  margin-bottom: 35px;
+}
+.category-h3{
+  font-size: 30px;
+  font-family: "Google Sans Flex", sans-serif;
+  color: #f9f9f9c8;
+  margin-left: 30px;
 }
