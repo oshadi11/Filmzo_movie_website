@@ -101,7 +101,7 @@ header {
 
 .container-2 h3 {
   margin-top: 50px;
-  font-family: "Lexend Zetta", sans-serif;
+  font-family:"Google Sans", sans-serif;
 
 }
 
@@ -150,7 +150,7 @@ header {
 }
 
 .Horror {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/l_1922777_4e991d7a.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)), url("/assets/iges.jpg");
 }
 
 .Action {
@@ -203,10 +203,11 @@ header {
 }
 
 .ctcontainer h1 {
-  font-family: "Lexend Zetta", sans-serif;
+  font-family: "Google Sans", sans-serif;
   font-size: 48px;
   text-align: center;
   margin: 2%;
+  font-weight: normal;
 }
 
 .ctcontainer a {
