@@ -1,4 +1,5 @@
 /*font*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
 .google-sans {
   font-family: "Google Sans", sans-serif;
@@ -7,6 +8,13 @@
   font-style: normal;
   font-variation-settings: "MONO" 1;
 }
+.lexend-zetta{
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,6 +94,8 @@ header {
 }
 .container-2 h3{
   margin-top:50px ;
+  font-family: "Lexend Zetta", sans-serif;
+
 }
 .movie-card {
   width: 14%;
@@ -95,6 +105,8 @@ header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
   margin: 30px;
   margin-bottom: 0;
+  cursor: pointer;
+
 }
 .movie-card img{
     width:100%;
@@ -119,13 +131,27 @@ header {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
   margin: 30px;
   margin-bottom: 0;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-start;
+  align-content: end;
+  align-items: flex-end;
+
   background-size: cover;
 }
 
-.spider{
-  background-image:url("/assets/12.png")  ;
+.Horror{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/l_1922777_4e991d7a.jpg")  ;
+}
+.Action{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/images.jpg")  ;
+}
+.Romance{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/through-my-window-netflix-poster-1-1.jpeg")  ;
+}
+.Comedy{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/img1\).jpg")  ;
+}
+.Family{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.705)),url("/assets/images\ \(1\).jpg")  ;
 }
 .category-card img{
     width:100%;
@@ -133,11 +159,9 @@ header {
     border-radius: 10px 10px 0px 0px;
 }
 .category-card h2{
-    text-align: center;
-    font-size: 26px;
-    margin: 10px;
-    align-items: center;
-    align-content: center;
+    
+    font-size: 48px;
+    margin: 20px;
     
    
 }
@@ -166,4 +190,8 @@ header {
   margin: 2%;
 }
 
+.ctcontainer a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.692);
+}
 
